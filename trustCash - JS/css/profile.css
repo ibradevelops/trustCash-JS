@@ -1,0 +1,13 @@
+.hide {
+  display: none !important;
+}
+
+h5,
+img {
+  cursor: pointer;
+}
+
+.editing {
+  padding: 5px;
+  border: 2px solid black;
+}/*# sourceMappingURL=profile.css.map */

@@ -1,0 +1,24 @@
+.hide {
+  display: none !important;
+}
+
+#form-title {
+  font-size: 3.6rem;
+  line-height: 1.1;
+}
+
+.logo-animation {
+  animation: logoAnime 2s linear infinite;
+}
+
+@keyframes logoAnime {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=style.css.map */

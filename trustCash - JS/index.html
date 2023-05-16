@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <script type="module" defer src="js/script.js"></script>
+    <title>Login || Register</title>
+  </head>
+  <body
+    class="h-100 d-flex justify-content-center align-items-center text-white"
+  >
+    <div
+      class="h-100 bg-success w-50 d-flex justify-content-center align-items-center"
+      id="first__side"
+    >
+      <img
+        src="images/logo.png"
+        alt="Logo"
+        width="auto"
+        height="200"
+        class="logo-animation"
+      />
+    </div>
+    <div
+      class="h-100 w-50 d-flex align-items-center justify-content-center gap-5 flex-column bg-light"
+      id="second__side"
+    >
+      <div class="spinner-border text-success hide" id="spinner"></div>
+      <span>
+        <h1
+          class="text-dark text-center h-100 justify-content-end"
+          id="form-title"
+        >
+          Welcome To<br />TrustCash 💲
+        </h1>
+      </span>
+      <span
+        class="w-50 d-flex justify-content-center align-items-center flex-column gap-3"
+      >
+        <button class="btn btn-success w-50" id="login-btn">Login</button>
+        <button class="btn btn-success w-50" id="register-btn">Register</button>
+        <input
+          type="text"
+          placeholder="Name"
+          class="form-control w-50"
+          id="input-name"
+        />
+        <input
+          type="password"
+          placeholder="password"
+          class="form-control w-50"
+          id="input-password"
+        />
+      </span>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
