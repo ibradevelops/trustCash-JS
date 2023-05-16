@@ -54,7 +54,6 @@ registerBtn.addEventListener("click", function () {
         },
         body: JSON.stringify({ ...serverBody }),
       });
-      console.log(responseBudget);
       spinner.classList.add("hide");
       alert("Registracija uspješna. ✔️");
       clearInputs();
@@ -91,12 +90,10 @@ loginBtn.addEventListener("click", function () {
         return;
       }
       //
-      if (
-        data.find(
-          (u) =>
-            u.name === inputName.value && u.password === inputPassword.value
-        )
-      ) {
+      const user = data.find(
+        (u) => u.name === inputName.value && u.password === inputPassword.value
+      );
+      if (!user) {
         clearInputs();
         alert(
           "Korisnik ne postoji. 👤\nUkoliko niste registrovani, molimo Vas da to učinite."
