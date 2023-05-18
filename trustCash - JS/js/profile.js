@@ -9,6 +9,12 @@ goBackBtn.addEventListener("click", () => {
   location.href = "main.html";
 });
 
+window.addEventListener("keydown", function (e) {
+  if (e.code === "Space") {
+    e.preventDefault();
+  }
+});
+
 window.addEventListener("load", () => {
   spinner.classList.remove("hide");
   async function getUsers() {
