@@ -1,4 +1,4 @@
-# trustCash-JS
+# trustCash-JS - PC version
 Full stack web application, where users can calculate gross salary, and see other details.
 Currently, only PC version!
 For the Back End, i used service mockapi.io to create a database and endpoints.
